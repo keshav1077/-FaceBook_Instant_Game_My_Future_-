@@ -51,11 +51,11 @@ var wins = {
 var playerScore = 0;
 var compScore = 0;
 
-startButton.addEventListener("click", startGame);
+//startButton.addEventListener("click", startGame);
 
-Array.from(playButtons).forEach((btn) => {
-  btn.addEventListener("click", buttonClicked);
-});
+// Array.from(playButtons).forEach((btn) => {
+//   btn.addEventListener("click", buttonClicked);
+// });
 
 function startGame() {
   hidecompChooses();
