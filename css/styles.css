@@ -1,10 +1,28 @@
 body {
-  background: #0a1172;
+  background: #e26394;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0492c0, #0a1172);
+  /* background: -webkit-linear-gradient(to right, #0492c0, #0a1172); */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0492c0, #0a1172);
+  /* background: linear-gradient(to right, #0492c0, #0a1172); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#splash {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  animation: moment-on 1s linear 5s;
+  animation-fill-mode: forwards;
+}
+.centerTital {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
 }
 
 #buttongroup {
@@ -20,5 +38,25 @@ body {
   padding: 10px 0 20px 0;
   border-radius: 0 0 10px 10px;
   width: 100%;
-  background: #1520a6;
+  background: #750e16;
+}
+@keyframes moment-on {
+  from {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes moment-off {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
