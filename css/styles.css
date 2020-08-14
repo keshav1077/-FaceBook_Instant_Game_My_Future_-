@@ -17,6 +17,22 @@ body {
   display: block;
   margin-left: 15%;
 }
+div.text_center {
+  text-align: center;
+  text-decoration-color: crimson;
+}
+p.text_style {
+  font-family: "Sofia";
+  font-size: large;
+  color: brown;
+}
+.button_style {
+  /* background-color: #1520a6; */
+  font-size: large;
+  text-align: center;
+  font-family: "Sofia";
+  color: brown;
+}
 
 h1 {
   text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
