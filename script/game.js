@@ -1,28 +1,32 @@
 console.log("loaded");
 
+FBInstant.initializeAsync().then(
+  function () {
+    var progress = 0;
+    var interval = setInterval(function () {
+      if (progress >= 95) {
+        clearInterval(interval);
+        FBInstant.startGameAsync().then(function () {
+          console.log("Game has started");
+        });
+      }
+      // Informs the SDK of loading progress
+      FBInstant.setLoadingProgress(progress);
+      progress += 5;
+    }, 100);
+  }
+  // Start loading game assets here
+);
+
 function getel(id) {
   console.log(id);
   return document.getElementById(id);
 }
 
-// var carModol = false;
-// var startButton = getel("car_button");
-document.getElementById("car_button").onclick = function () {
-  startGame();
-  console.log("Selected Car benZ");
-};
-// startButton.addEventListener("click", startGame);
+var startButton = getel("startGame");
+var gamePlay = getel("carbutton");
+var gamePlay = getel("carbutton");
 
-function startGame() {
-  console.log("Selected Car");
-}
-document.getElementById("demo").addEventListener("click", myFunction);
-
-function myFunction() {
-  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
-  console.log("Selected Car toyota");
-}
-// document.getElementById("car_button").addEventListener("click", function () {
-//   document.getElementById("demo").innerHTML = "Hello World";
-// });
-// console.log(carModol);
+startButton.addEventListener("click", function () {
+  console.log("Hi");
+});
