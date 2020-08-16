@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rock And Roal</title>
-
-    <!-- <link rel="stylesheet" href="./css/tailwind.min.css" /> -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
@@ -14,19 +12,22 @@
     />
   </head>
   <body>
+    <div class="text_center" id="game">
+      <p class="text_style">What is Your favirout vehical</p>
+      <button id="carbutton" class="button_style">car</button><br /><br />
+      <button id="bickbutton" class="button_style">Bick</button>
+      <button id="startGame">
+        Start Game
+      </button>
+      <p id="demo">Click me</p>
+    </div>
+    <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
+    <script src="script/game.js"></script>
     <div class="centerTital">
       <img
         id="splash"
         src="http://img6.cache.netease.com/tech/2016/3/22/20160322075437fc664.jpg"
       />
     </div>
-    <div class="text_center">
-      <p class="text_style">What is Your favirout vehical</p>
-      <button id="car_button" class="button_style">car</button><br /><br />
-      <button id="bick_button" class="button_style">Bick</button>
-      <p id="demo">Click me</p>
-    </div>
-    <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
-    <script src="script/game.js"></script>
   </body>
 </html>
