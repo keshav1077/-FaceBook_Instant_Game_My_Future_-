@@ -30,3 +30,15 @@ var gamePlay = getel("carbutton");
 startButton.addEventListener("click", function () {
   console.log("Hi");
 });
+
+function changeImage() {
+  var image = document.getElementById("withtoung");
+  var girl = true;
+  if (girl) {
+    var girl = false;
+    image.src = "https://homepages.cae.wisc.edu/~ece533/images/cat.png";
+  } else {
+    girl = true;
+    image.src = "https://homepages.cae.wisc.edu/~ece533/images/girl.png";
+  }
+}
