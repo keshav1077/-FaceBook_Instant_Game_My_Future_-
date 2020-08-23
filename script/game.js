@@ -39,12 +39,12 @@ startButton.addEventListener("click", function () {
       "https://homepages.cae.wisc.edu/~ece533/images/cat.png",
     ];
     var time = 1000;
-    rotateImage(imageSources, time);
+    rotateImage(imageSources);
   } else {
     changeImage();
   }
 });
-function rotateImage(imageSources, time) {
+function rotateImage(imageSources) {
   console.log("Hi");
 
   var index = 0;
@@ -55,7 +55,7 @@ function rotateImage(imageSources, time) {
     console.log(index);
     document.getElementById("withtoung").src = imageSources[index];
     index++;
-  }, time);
+  }, 1000);
 }
 
 function changeImage() {
