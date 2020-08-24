@@ -29,24 +29,23 @@ var gamePlay = getel("carbutton");
 
 startButton.addEventListener("click", function () {
   var image = document.getElementById("withtoung");
-  if (
-    image.src.match("https://homepages.cae.wisc.edu/~ece533/images/cat.png")
-  ) {
+  startButton.disabled = true;
+  var startpress = true;
+  if (startpress) {
     var imageSources = [
-      "https://homepages.cae.wisc.edu/~ece533/images/pool.png",
-      "https://homepages.cae.wisc.edu/~ece533/images/girl.png",
       "https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+      "https://homepages.cae.wisc.edu/~ece533/images/boat.png",
+      "https://homepages.cae.wisc.edu/~ece533/images/girl.png",
       "https://homepages.cae.wisc.edu/~ece533/images/cat.png",
     ];
-    var time = 1000;
     rotateImage(imageSources);
+    console.log(startpress);
   } else {
     changeImage();
   }
 });
 function rotateImage(imageSources) {
   console.log("Hi");
-
   var index = 0;
   setInterval(function () {
     if (index === imageSources.length) {
