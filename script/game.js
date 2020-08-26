@@ -48,7 +48,7 @@ startButton.addEventListener("click", function () {
 });
 
 function rotateImage(imageSources) {
-  console.log("Hi image Roteter");
+  console.log("Hi Image Roteter");
   var index = 0;
   setInterval(function () {
     if (index === imageSources.length) {
