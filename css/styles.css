@@ -31,7 +31,7 @@ p.text_style {
   font-size: large;
   text-align: center;
   font-family: "Sofia";
-  color: brown;
+  color: rgb(153, 165, 42);
 }
 
 h1 {
