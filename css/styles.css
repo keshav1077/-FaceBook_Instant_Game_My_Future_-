@@ -28,7 +28,7 @@ p.text_style {
 }
 .button_style {
   /* background-color: #1520a6; */
-  font-size: large;
+  font-size: large; 
   text-align: center;
   font-family: "Sofia";
   color: rgb(153, 165, 42);
