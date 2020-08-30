@@ -34,9 +34,9 @@ startButton.addEventListener("click", function () {
   profileImage.disabled = false;
   if (startButton.disabled) {
     var imageSources = [
-      "https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
-      "https://homepages.cae.wisc.edu/~ece533/images/boat.png",
-      "https://homepages.cae.wisc.edu/~ece533/images/girl.png",
+      "/image/facetest bill.jpg",
+      "https://picsum.photos/id/237/200/300",
+      "https://picsum.photos/seed/picsum/200/300",
       "https://homepages.cae.wisc.edu/~ece533/images/cat.png",
     ];
     rotateImage(imageSources);
