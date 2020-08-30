@@ -34,16 +34,15 @@ startButton.addEventListener("click", function () {
   profileImage.disabled = false;
   if (startButton.disabled) {
     var imageSources = [
+      "/image/IMG_1058.jpg",
       "/image/facetest bill.jpg",
-      "https://picsum.photos/id/237/200/300",
-      "https://picsum.photos/seed/picsum/200/300",
-      "https://homepages.cae.wisc.edu/~ece533/images/cat.png",
+      "/image/IMG_1062.jpg",
+      "/image/StayAtHome.png",
     ];
     rotateImage(imageSources);
   } else {
     console.log("star button off" + startButton.disabled);
-    profileImage.src =
-      "https://homepages.cae.wisc.edu/~ece533/images/airplane.png";
+    profileImage.src = "/image/IMG_1058.jpg";
   }
 });
 
@@ -63,8 +62,7 @@ function rotateImage(imageSources) {
 function changeImage() {
   console.log("Hi Change Image");
   startButton.disabled = false;
-  profileImage.src =
-    "https://homepages.cae.wisc.edu/~ece533/images/airplane.png";
+  profileImage.src = "/image/IMG_1058.jpg";
   //rotateImage(imageSources);
   // var image = document.getElementById("withtoung");
   // if (
