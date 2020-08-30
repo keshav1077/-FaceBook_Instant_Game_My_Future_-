@@ -34,15 +34,15 @@ startButton.addEventListener("click", function () {
   profileImage.disabled = false;
   if (startButton.disabled) {
     var imageSources = [
-      "/image/IMG_1058.jpg",
-      "/image/facetest bill.jpg",
-      "/image/IMG_1062.jpg",
-      "/image/StayAtHome.png",
+      "./image/IMG_1058.jpg",
+      "./image/facetest bill.jpg",
+      "./image/IMG_1062.jpg",
+      "./image/StayAtHome.png",
     ];
     rotateImage(imageSources);
   } else {
     console.log("star button off" + startButton.disabled);
-    profileImage.src = "/image/IMG_1058.jpg";
+    profileImage.src = "./image/IMG_1058.jpg";
   }
 });
 
