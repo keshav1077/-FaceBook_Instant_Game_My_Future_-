@@ -12,15 +12,28 @@
     />
   </head>
   <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="firecrackers" src="./image/firecrackers.gif" />
+        <div class="top-left">
+          <p class="text_style_congratulation">You'r are Won</p>
+        </div>
+        <div class="bottom-right">
+          <p class="text_style_congratulation">Congratulations</p>
+        </div>
+      </div>
+    </div>
+
     <div class="text_center" id="game">
-      <p class="text_style">Touch My Dog Tounge</p>
-      <!-- <button id="carbutton" class="button_style">car</button><br /><br />
-      <button id="bickbutton" class="button_style">Bick</button> -->
+      <p class="text_style_header">Touch My Dog Tounge</p>
 
       <input
         type="image"
         id="withtoung"
-        src="./image/IMG_1058.jpg"
+        src="./image/1_01.jpg"
         alt="Submit"
         width="400"
         height="400"
@@ -28,15 +41,13 @@
         disabled
       />
       <br />
-      <button id="startGame">Start Game</button>
+      <input class="startButton" id="startGame" value="Push to Start"></input>
     </div>
     <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
     <script src="script/game.js"></script>
-    <div class="centerTital">
-      <img
-        id="splash"
-        src="http://img6.cache.netease.com/tech/2016/3/22/20160322075437fc664.jpg"
-      />
-    </div>
+    <script type="text/javascript" src="script/snowstorm.js"></script>
+    <!-- <div class="centerTital">
+      <img id="splash" src="./image/1_02.jpg" />
+    </div> -->
   </body>
 </html>
