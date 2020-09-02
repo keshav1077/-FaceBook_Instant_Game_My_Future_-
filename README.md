@@ -1,4 +1,4 @@
-# Select Future Car - BudyGames(Vidura)
+# Tough My Dog Tongue - BudyGames(Vidura)
 
 My first custome FB game
 Game made for Practice instant game development.
