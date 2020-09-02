@@ -1,5 +1,5 @@
 body {
-  background: #adecf5;
+  background: #4e8067;
   /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #0492c0, #0a1172); */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -46,17 +46,17 @@ body {
 }
 div.text_center {
   text-align: center;
-  text-decoration-color: crimson;
+  text-decoration-color: rgb(53, 228, 140);
 }
 p.text_style_header {
   font-family: "Sofia";
   font-size: 28px;
-  color: brown;
+  color: rgb(64, 230, 160);
 }
 p.text_style_congratulation {
   font-family: "Sofia";
   font-size: 78px;
-  color: rgb(159, 209, 238);
+  color: rgb(238, 159, 169);
 }
 .button_style {
   /* background-color: #1520a6; */
@@ -122,9 +122,7 @@ h1 {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
   margin: auto;
-  border: 1px solid #888;
   width: 80%;
   height: 80%;
   position: relative;
@@ -134,7 +132,7 @@ h1 {
 /*firecrackers */
 .firecrackers {
   width: 100%;
-  height: 90%;
+  height: 100%;
   position: relative;
 }
 /* The Close Button */
