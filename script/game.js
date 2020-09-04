@@ -7,7 +7,7 @@ FBInstant.initializeAsync().then(
       if (progress >= 95) {
         clearInterval(interval);
         FBInstant.startGameAsync().then(function () {
-          console.log("Game has started");
+          console.log("Game is started");
         });
       }
       // Informs the SDK of loading progress
